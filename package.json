@@ -1,11 +1,14 @@
 {
-  "name": "backend",
+  "name": "soccer-ball-detector",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Soccer ball detection using TensorFlow.js",
+  "main": "ball_detector.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node simple_basketball_detector.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.7.0",
+    "canvas": "^2.11.2",
+    "jimp": "^0.16.3"
+  }
 }
